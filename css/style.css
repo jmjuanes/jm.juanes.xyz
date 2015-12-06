@@ -1,0 +1,58 @@
+/* My default page style */
+
+/* Body */
+body { background-color: #ffffff;  margin: 0px; padding: 0px; font-weight: 300; }
+body { color: #526475; font-family: OpenSans; font-size: 18px; text-decoration: none; }
+
+/* Links */
+a { color: #5c9ded; text-decoration: none; font-weight: 300; opacity: 0.8; }
+a:hover { text-decoration: none; color: #5c9ded; opacity: 1.0; }
+
+/* Bold text */
+b { font-weight: normal; }
+
+/* Paragraph */
+p { line-height: 25px; }
+
+
+/* Cab */
+.cab { display: block; width: 500px; line-height: 28px; color: #526475; font-size: 20px; }
+.cab { margin-left: auto; margin-right: auto; padding-top: 100px; padding-bottom: 30px; }
+
+/* Cab media */
+@media (max-width: 509px) { .cab { width: 90%; } }
+
+/* Cab gravatar */
+.cab-gravatar { width: 100px; height: 100px; background-size: 100px 100px; display: block; }
+.cab-gravatar { margin-bottom: 40px; border-radius: 100px; }
+.cab-gravatar { background-image: url('https://www.gravatar.com/avatar/3f0a7590e721a6806c3d5d546ba1ce19.png?s=400'); }
+.cab-gravatar { background-repeat: no-repeat; background-position: center center; }
+
+/* Cab title */
+.cab-title { display: block; font-size: 30px; margin-bottom: 20px; }
+
+/* Cab links */
+.cab-links { margin-top: 20px; }
+.cab-links a { color: #526475; text-decoration: none; display: inline-block; font-size: 18px; }
+.cab-links a { margin-left: 3px; margin-right: 3px; border-radius: 5px; padding: 3px; }
+.cab-links a { padding-left: 10px; padding-right: 10px; }
+.cab-links a:hover { color: #ffffff; background-color: #5c9ded; }
+
+
+/* Main */
+.main { display: block; width: 600px; padding-top: 20px; padding-bottom: 20px; }
+.main { margin-left: auto; margin-right: auto; }
+
+/* Main media */
+@media (max-width: 609px) { .main { width: 94%; } }
+
+
+/* Item */
+.item { margin-bottom: 25px; }
+.item-title { font-size: 20px; text-decoration: none; line-height: 28px; }
+.item-tags { font-size: 15px; color: #a3a3a3; text-decoration: none; }
+
+
+/* Foot  */
+.foot { width: calc(100% - 20px); margin-left: auto; margin-right: auto; }
+.foot { padding-bottom: 60px; padding-top: 60px; text-align: center; display: block; }
